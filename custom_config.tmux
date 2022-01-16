@@ -50,7 +50,7 @@ function status_style(){
   tmux set-option -g status-justify centre
 
   # 下面两行设置状态行的背景和前景色:
-  tmux set-option -g status-bg default
+  tmux set-option -g status-bg terminal
   tmux set-option -g status-fg white
 
   tmux set-option -g window-status-format '#I:#W'
